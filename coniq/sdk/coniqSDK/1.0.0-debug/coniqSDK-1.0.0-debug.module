@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.coniq.sdk",
+    "module": "coniqSDK",
+    "version": "1.0.0-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coniqSDK-1.0.0-debug.aar",
+          "url": "coniqSDK-1.0.0-debug.aar",
+          "size": 283740,
+          "sha512": "5c75d8367d299ee62ab5860ce02faa8968571e427f18af400102f7fa896bc24c0740ea9a26d80f0ec889896465195ada937eb5d197c1177505f9478e555136b7",
+          "sha256": "81b4f49025ed64075b144fe5b17a5bb05f79f6650e034eca411be44f6fad1dcc",
+          "sha1": "f806bae20d9e0d24d21b08498e672a3ecd01ea5a",
+          "md5": "d05e3a18f0517bc07721ecf0f6bb94b6"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coniqSDK-1.0.0-debug.aar",
+          "url": "coniqSDK-1.0.0-debug.aar",
+          "size": 283740,
+          "sha512": "5c75d8367d299ee62ab5860ce02faa8968571e427f18af400102f7fa896bc24c0740ea9a26d80f0ec889896465195ada937eb5d197c1177505f9478e555136b7",
+          "sha256": "81b4f49025ed64075b144fe5b17a5bb05f79f6650e034eca411be44f6fad1dcc",
+          "sha1": "f806bae20d9e0d24d21b08498e672a3ecd01ea5a",
+          "md5": "d05e3a18f0517bc07721ecf0f6bb94b6"
+        }
+      ]
+    }
+  ]
+}
