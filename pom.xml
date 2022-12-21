@@ -8,5 +8,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.coniq.sdk</groupId>
   <artifactId>coniqSDK</artifactId>
-  <version>1.0.0-debug</version>
+  <version>1.0.0</version>
 </project>
