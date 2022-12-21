@@ -9,7 +9,6 @@
   <groupId>com.coniq.sdk</groupId>
   <artifactId>coniqSDK</artifactId>
   <version>1.0.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
